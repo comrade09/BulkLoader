@@ -39,9 +39,8 @@
   },
   "addons": [
   ],
-  "buildpacks": [{
-    "url": "heroku/python"
-  }],
+  "buildpacks": [ {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"},
+                  {"url": "heroku/python"}],
   "stack": "heroku-20",
   "formation": {
     "worker": {
